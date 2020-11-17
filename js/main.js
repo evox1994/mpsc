@@ -114,8 +114,16 @@ $(document).ready(function(){
 	}
 	footerYear();
 
+	$(document).on('click',function(e){
+		if ( !$(e.target).closest('.header-menu').length ){
+			$('.header-menu-btn').removeClass('active');
+			$('.header-menu .menu-drop').removeClass('active');
+		}
+	});
+
 	$(document).on('click','.header-menu-btn',function(){
 		$(this).toggleClass('active');
+		$(this).parents('.header-menu').find('.menu-drop').toggleClass('active');
 	});
 
 	$('.b-logos-slider').slick({

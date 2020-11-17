@@ -291,18 +291,18 @@ textarea:-moz-placeholder {
 	height: 40px;
 	z-index: 10;
     cursor: pointer;
-    top: 15px;
-    right: 30px;
+    top: 10px;
+    left: 10px;
 }
 .close-btn::after {
 	content: '';
 	position: absolute;
     border-radius: 100px;
     left: 5px;
-    top: calc(50% - 2px);
+    top: calc(50% - 1.5px);
     width: 30px;
-    height: 4px;
-    background-color: #000000;
+    height: 3px;
+    background-color: #b98d31;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -313,10 +313,10 @@ textarea:-moz-placeholder {
     position: absolute;
     border-radius: 100px;
     left: 5px;
-    top: calc(50% - 2px);
+    top: calc(50% - 1.5px);
     width: 30px;
-    height: 4px;
-    background-color: #000000;
+    height: 3px;
+    background-color: #b98d31;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);

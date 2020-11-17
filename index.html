@@ -27,11 +27,21 @@
 					<div class="header-logo">
 						<a href="/"><img src="i/logo.png"></a>
 					</div>
-					<div class="header-menu-btn">
-						<div class="burger">
-							<div class="burger-el"></div>
+					<div class="header-menu">
+						<div class="header-menu-btn">
+							<div class="burger">
+								<div class="burger-el"></div>
+							</div>
+							<span>Меню, услуги</span>
 						</div>
-						<span>Меню, услуги</span>
+						<div class="menu-drop">
+							<ul>
+								<li><a href="/">Главная</a></li>
+								<li><a href="/">Экологическая документация</a></li>
+								<li><a href="/">Новости</a></li>
+								<li><a href="/">Контакты</a></li>
+							</ul>
+						</div>
 					</div>
 					<div class="header-contacts">
 						<div class="item">
@@ -52,6 +62,29 @@
 						<span>Звонок бесплатный</span>
 					</div>
 				</div>
+			</div>
+			<div class="mobile-menu">
+				<div class="close-btn"></div>
+				<ul class="nav">
+					<li><a href="/">Главная</a></li>
+					<li><a href="/">Экологическая документация</a></li>
+					<li><a href="/">Новости</a></li>
+					<li><a href="/">Контакты</a></li>
+				</ul>
+				<ul class="menu-contacts">
+					<li>
+						<div class="title">г. Томск,</div>
+						<span>пр.&nbsp;Ленина&nbsp;5, офис&nbsp;506</span>
+					</li>
+					<li>
+						<div class="title"><a href="mailto:info@ecompsc.ru">info@ecompsc.ru</a></div>
+						<span>Для предложений</span>
+					</li>
+					<li>
+						<div class="title">Пн-Пт</div>
+						<span>с&nbsp;9:00 до&nbsp;18:00</span>
+					</li>
+				</ul>
 			</div>
 		</div>
 
@@ -307,6 +340,30 @@
 		</div>
 
 		<div style="display:none;">
+			<div class="popup" id="popup-calc">
+				<div class="title">Получить точную стоимость</div>
+				<div class="b-form">
+					<form>
+						<div class="b-input">
+							<input type="text" placeholder="Ваше имя">
+						</div>
+						<div class="b-input">
+							<input type="tel" placeholder="Ваш телефон">
+						</div>
+						<button type="submit" class="b-btn">Рассчитать стоимость</button>
+						<div class="policy-text"><div class="radio-btn active"></div>Я принимаю условия <a href="#popup-policy" class="fancybox">политики обработки персональных данных</a></div>
+					</form>
+				</div>
+			</div>
+
+			<div class="popup popup-policy" id="popup-policy">
+				<div class="title">Соглашение на обработку персональных данных</div>
+				<div class="popup-text">
+					<p>Данное соглашение создано нами с целью максимальной защищенности ваших данных. Пожалуйста, прочтите внимательно нашу политику конфиденциальности.<br> Когда вы отправляете заявку на нашем сайте с целью получения услуг, какой-либо справочной информации или обратной связи, вы автоматически даете согласие на обработку нами ваших персональных данных, а также иной информации: хранение, использование и сбор. Мы гарантируем, что ваши личные и персональные данные никогда не будут переданы третьим лицам.</p><br>
+					<p>Все указываемые персональные данные, такие как:<br> • адрес электронной почты,<br> • ваше имя,<br> • контактный номер телефона</p><br>
+					<p>Мы используем исключительно для связи с вами в следующих случаях: ответ на вопросы, обработка ваших заявок.</p>
+				</div>
+			</div>
 		</div>
 	</div>
 
