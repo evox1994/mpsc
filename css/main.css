@@ -242,6 +242,9 @@
 	font-size: 18px;
 	text-align: left;
 }
+.footer-nav ul > li a:hover {
+	opacity: 0.8;
+}
 .footer-bot {
 	padding-top: 35px;
 	border-top: 1px solid #b98d31;
@@ -268,11 +271,17 @@
 	text-align: left;
 	font-size: 14px;
 }
+.footer-about ul > li a:hover {
+	opacity: 0.8;
+}
 .footer-cookie {
 	font-size: 14px;
 	text-align: left;
 	width: calc(100% - 670px);
 	max-width: 400px;
+}
+.footer-cookie a:hover {
+	opacity: 0.8;
 }
 .footer .logo-dev {
 	width: 100%;
@@ -959,6 +968,9 @@
 	.b-face .face-head .wrap {
 		display: block;
 	}
+	.b-face .face-head .title {
+		display: none;
+	}
 	.b-face .face-head .wrap .face-nav {
 		justify-content: space-between;
 	}
@@ -1122,7 +1134,7 @@
 		overflow-x: auto;
 	}
 	.b-face .face-head .face-nav > li {
-		font-size: 14px;
+		font-size: 16px;
 		white-space: nowrap;
 	}
 	.b-face .face-head .face-nav > li a {
@@ -1179,15 +1191,17 @@
 
 	.b-cards > li {
 		width: calc(50% - 10px);
-		margin-top: 20px;
+		margin-top: 30px;
+		text-align: center;
 	}
 	.b-cards > li .title {
 		font-size: 18px;
-		margin-top: 15px;
+		margin-top: 20px;
 	}
 	.b-cards > li .b-btn {
 		font-size: 14px;
-		margin-top: 10px;
+		margin-top: 20px;
+		max-width: none;
 	}
 
 	.b-logos-slider {

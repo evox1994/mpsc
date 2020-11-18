@@ -126,6 +126,14 @@ $(document).ready(function(){
 		$(this).parents('.header-menu').find('.menu-drop').toggleClass('active');
 	});
 
+	$(document).on('click','.nav-a',function(){
+		var el = $(this).attr('href');
+		if ( $(el).length ){
+			$('body,html').animate({scrollTop: $(el).offset().top}, 800);
+		}
+		return false;
+	});
+
 	$('.b-logos-slider').slick({
 		slidesToShow: 4,
 		slidesToScroll: 1,
